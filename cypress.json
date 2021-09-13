@@ -1,4 +1,6 @@
 {
     "baseUrl":"https://notes-serverless-app.com",
-    "experimentalSessionSupport":true
+    "experimentalSessionSupport":true,
+    "chromeWebSecurity": false,
+    "experimentalStudio": true
 }
