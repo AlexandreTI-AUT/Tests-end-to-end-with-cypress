@@ -29,7 +29,7 @@ describe('Scenarios where authentication is a pre-requirement', () => {
 
     cy.wait('@getNotes')
     cy.wait('@paymentRequest').then(response => {
-      expect(response.state).to.equal('Complete')
+    expect(response.state).to.equal('Complete')
     })
   })
 })
